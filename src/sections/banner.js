@@ -41,12 +41,10 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              Ultimate support system for leading agencies
+              For businesses that invest in their employees' mental and emotional health
             </Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+              Create a positive work environment and a culture of wellbeing at your workplace.
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             <Flex sx={styles.sponsoredBy}>
