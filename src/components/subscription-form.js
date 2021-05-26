@@ -10,7 +10,7 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
   }, []);
 
   return (
-    <Flex as="form" sx={styles.form} {...props}>
+    <Flex as="form" sx={styles.form} {...props} netlify>
       <Label htmlFor={`email-${id}`} variant="styles.srOnly">
         Email
       </Label>
